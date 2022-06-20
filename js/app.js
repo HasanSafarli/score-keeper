@@ -19,8 +19,6 @@ winningScoreSelect.addEventListener("change", function() {
     winningScore = parseInt(this.value)
 })
 
-
-
 p1Button.addEventListener("click", function() {
     if (!isGameOver) {
         p1Score++;
@@ -33,9 +31,6 @@ p1Button.addEventListener("click", function() {
     } 
 })
 
-
-
-
 p2Button.addEventListener("click", function() {
     if (!isGameOver) {
         p2Score++;
@@ -47,9 +42,6 @@ p2Button.addEventListener("click", function() {
         p2Display.textContent = p2Score
     } 
 })
-
-
-
 
 resetButton.addEventListener("click", reset)
 
